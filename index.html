@@ -3,9 +3,13 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<<<<<<< HEAD
   <meta http-equiv="Cache-Control" content="no-store"/>
   <title>CropXpert – Crop Recommendation</title>
   <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+=======
+  <title>CropXpert – Crop Recommendation</title>
+>>>>>>> 4b7b35fbfa5edbb87a0108b06ea519b22e92f84f
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Raleway:wght@300;400;600;700&display=swap" rel="stylesheet"/>
   <style>
     *, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
@@ -531,10 +535,17 @@
 
   <select class="cx-select" id="climateInput">
     <option value="Summer">Summer</option>
+<<<<<<< HEAD
     <option value="Winter">Winter</option>
     <option value="Rainy (Monsoon)">Rainy / Monsoon</option>
     <option value="Spring">Spring</option>
     <option value="Cold">Cold</option>
+=======
+<option value="Winter">Winter</option>
+<option value="Rainy">Rainy</option>
+<option value="Spring">Spring</option>
+<option value="Cold">Cold</option>
+>>>>>>> 4b7b35fbfa5edbb87a0108b06ea519b22e92f84f
   </select>
 </div>
 
@@ -631,6 +642,7 @@
  <script>
 
 // ===============================
+<<<<<<< HEAD
 // Auth Guard — redirect if not logged in
 // ===============================
 (function(){
@@ -638,6 +650,16 @@
     window.location.href = "login.html";
   }
 })();
+=======
+// Clean Text Helper ⭐ IMPORTANT
+// ===============================
+function cleanText(text){
+  return text
+    .replace(/☀️|❄️|🌧️|🌸|🥶|🌱|🌾|🚜|🪨|💧|📐/g,"")
+    .replace(/[^a-zA-Z ]/g,"")
+    .trim();
+}
+>>>>>>> 4b7b35fbfa5edbb87a0108b06ea519b22e92f84f
 
 
 // ===============================
@@ -847,4 +869,8 @@ function handleLogout(){
 
 </script>
 </body>
+<<<<<<< HEAD
 </html>
+=======
+</html>
+>>>>>>> 4b7b35fbfa5edbb87a0108b06ea519b22e92f84f
