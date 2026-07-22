@@ -1,6 +1,45 @@
-venv/
+# Python
 __pycache__/
+*.py[cod]
+*.pyo
+*.pyd
 *.pyc
-.env
+.Python
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# Environment secrets — NEVER commit these
+backend/.env
+
+# ML model files (large binary files — regenerate with train.py)
+backend/model/crop_model.pkl
+backend/model/encoders.pkl
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Node (if added later)
 node_modules/
-pyvenv.cfg
+dist/
+build/
+
+# Pytest / coverage
+.pytest_cache/
+htmlcov/
+.coverage

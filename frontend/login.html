@@ -3,7 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta http-equiv="Cache-Control" content="no-store"/>
   <title>CropXpert – Login</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon"/>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Raleway:wght@300;400;600;700&display=swap" rel="stylesheet"/>
   <style>
     *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
@@ -342,7 +344,7 @@
     async function handleLogin() {
 
     const email = document.getElementById("emailInput").value.trim();
-    const password = document.getElementById("passInput").value.trim();
+    const password = document.getElementById("passInput").value;
 
     // Validation
     if (!email) {

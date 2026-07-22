@@ -3,4 +3,9 @@ flask-cors
 mysql-connector-python
 pandas
 werkzeug
+python-dotenv
+scikit-learn
+fpdf2
+requests
 gunicorn
+numpy
